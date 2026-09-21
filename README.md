@@ -1,2 +1,15 @@
-# Startup-outcome-intelligence
-Predict startup outcomes using machine learning with explainability and risk analysis.
+# Startup Outcome Intelligence Platform
+
+An ML-powered platform for startup outcome prediction and investment intelligence.
+
+## Features
+
+- Outcome Prediction
+- SHAP Explanations
+- Similar Startup Retrieval
+- Counterfactual Analysis
+- Global Insights
+
+## Status
+
+Project Initialization
