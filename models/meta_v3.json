@@ -91,5 +91,124 @@
     "country_code_missing",
     "country_code_other"
   ],
-  "threshold": 0.5970863625339764
+  "threshold_raw": 0.5970863625339764,
+  "low_cut_raw": 0.4,
+  "funding_type_cols": [
+    "equity_crowdfunding",
+    "undisclosed",
+    "convertible_note",
+    "debt_financing",
+    "angel",
+    "grant",
+    "product_crowdfunding"
+  ],
+  "markets": [
+    "Advertising",
+    "Analytics",
+    "Automotive",
+    "Biotechnology",
+    "Clean Technology",
+    "Cloud Computing",
+    "Consulting",
+    "Curated Web",
+    "E-Commerce",
+    "Education",
+    "Enterprise Software",
+    "Entertainment",
+    "Fashion",
+    "Finance",
+    "Games",
+    "Hardware + Software",
+    "Health Care",
+    "Health and Wellness",
+    "Hospitality",
+    "Internet",
+    "Manufacturing",
+    "Media",
+    "Medical",
+    "Messaging",
+    "Mobile",
+    "Music",
+    "Nanotechnology",
+    "Networking",
+    "News",
+    "Photography",
+    "Public Relations",
+    "Real Estate",
+    "SaaS",
+    "Search",
+    "Security",
+    "Semiconductors",
+    "Social Media",
+    "Social Network Media",
+    "Software",
+    "Sports",
+    "Technology",
+    "Travel",
+    "Video",
+    "Web Development",
+    "Web Hosting",
+    "Wireless"
+  ],
+  "countries": [
+    "AUS",
+    "BEL",
+    "BRA",
+    "CAN",
+    "CHE",
+    "CHN",
+    "DEU",
+    "DNK",
+    "ESP",
+    "FIN",
+    "FRA",
+    "GBR",
+    "IND",
+    "IRL",
+    "ISR",
+    "ITA",
+    "JPN",
+    "NLD",
+    "NOR",
+    "SGP",
+    "SWE",
+    "USA"
+  ],
+  "default_funding_total": 5000000.0,
+  "ranges": {
+    "funding_total_p01": 20000.0,
+    "funding_total_p99": 250000000.0,
+    "funding_rounds_p99": 9.0,
+    "days_to_funding_p99": 8825.0
+  },
+  "metrics": {
+    "n_train": 10941,
+    "n_test": 2736,
+    "base_fail_rate": 0.10855263157894737,
+    "roc_auc": 0.7065944396817706,
+    "roc_auc_ci95": [
+      0.6815561337372199,
+      0.7396831434933282
+    ],
+    "pr_auc": 0.24823172892686207,
+    "flag_precision": 0.21797004991680533,
+    "flag_recall": 0.44107744107744107
+  },
+  "band_stats": {
+    "Lower": {
+      "n": 1326,
+      "share": 0.48464912280701755,
+      "actual_fail_rate": 0.053544494720965306
+    },
+    "Moderate": {
+      "n": 809,
+      "share": 0.295687134502924,
+      "actual_fail_rate": 0.11742892459826947
+    },
+    "Elevated": {
+      "n": 601,
+      "share": 0.21966374269005848,
+      "actual_fail_rate": 0.21797004991680533
+    }
+  }
 }
