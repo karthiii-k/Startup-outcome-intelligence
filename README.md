@@ -113,4 +113,4 @@ Python 3.12 recommended. Deployed on Streamlit Community Cloud with `app/app.py`
 
 ## Tooling note
 
-The modelling, analysis and decisions in the notebooks are my own. The deployment layer (`app/` and `src/`) was built with AI assistance.
+The modelling, analysis and decisions in the notebooks are my own. The deployment layer (`app/` and `src/`) mainly the scripts for frontend was built with AI assistance.
