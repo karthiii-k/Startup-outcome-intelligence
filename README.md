@@ -2,6 +2,8 @@
 
 Predicts whether a startup is likely to fail, using funding history from the Crunchbase 2015 snapshot, and explains the prediction. Built end to end: data cleaning, modelling, a leakage audit, explainability and a deployed Streamlit app.
 
+LIVE LINK : https://startup-outcome-intelligence.streamlit.app/
+
 <img width="1280" height="900" alt="app-top" src="https://github.com/user-attachments/assets/5ebc6e57-d876-416a-8725-1ecb7876d88f" />
 <img width="1280" height="900" alt="app-whatif" src="https://github.com/user-attachments/assets/06a5d6c1-c9a2-4611-a8e4-b9a96ab1c7a5" />
 
